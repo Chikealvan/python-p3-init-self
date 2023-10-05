@@ -7,10 +7,10 @@ class Dog:
         self.breed = breed  # Initialize the 'breed' attribute with the provided breed.
         
 
-    # Define a method 'bark' to print a message indicating that the dog is barking.
+    # Define a method 'bark' to print a message displaying that the dog is barking.
     def bark(self):
         print(f"{self.name} is barking.")
 
-    # Define a method 'sit' to print a message indicating that the dog is sitting.
+    # Define a method 'sit' to print a message displaying that the dog is sitting.
     def sit(self):
         print("The dog is sitting.")
